@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activituy.SecondActivity">
+<TextView
+    android:id="@+id/s_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="123456"
+    android:gravity="center"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/s_image"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/string_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="我是string"/>
+    <Button
+        android:id="@+id/Json_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="我是Bean"/>
+    <Button
+        android:id="@+id/phone_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="打开相册"/>
+    <Button
+        android:id="@+id/phone_bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="打开相册"/>
+</LinearLayout>
